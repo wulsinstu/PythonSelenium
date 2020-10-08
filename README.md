@@ -45,3 +45,13 @@ https://ddavison.io/css/2014/02/18/effective-css-selectors.html
 
 
 
+6) Once you have a python code that does what you want, you can create a batch file to run it. Open Notepad and write a code that looks like this, then save it as filename.bat:
+
+call C:\Users\Swulsin\Anaconda3\Scripts\activate.bat
+
+cd C:\Users\Swulsin\Dropbox\Canvas\Server
+
+python Canvas_API_Sync.py
+
+
+7) Open Windows Task Scheduler and create a new task that runs that batch file on a schedule.
