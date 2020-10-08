@@ -28,7 +28,6 @@ elem.clear()
 elem.send_keys("pycon")
 elem.send_keys(Keys.RETURN)
 
-
 #driver.close()
 
 5) The hardest part is finding elements on a website. These offer helpful suggestions:
