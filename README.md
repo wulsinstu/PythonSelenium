@@ -36,6 +36,7 @@ elem.send_keys(Keys.RETURN)
 #driver.close()
 
 5) The hardest part is finding elements on a website. These offer helpful suggestions:
+
 https://selenium-python.readthedocs.io/locating-elements.html
 
 https://www.selenium.dev/documentation/en/getting_started_with_webdriver/locating_elements/
